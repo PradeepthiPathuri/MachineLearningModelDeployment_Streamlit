@@ -567,4 +567,12 @@ st.caption(
     "Built with Streamlit, pandas, Matplotlib and scikit-learn."
 )
  
- 
+st.divider()
+
+st.subheader("About This Project")
+
+if st.button("Show Project Information"):
+    st.info(
+        "This application predicts house prices using "
+        "Multiple Linear Regression and Streamlit."
+    )
